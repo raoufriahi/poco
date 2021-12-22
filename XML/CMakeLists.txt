@@ -1,7 +1,7 @@
 set(LIBNAME "PocoXML")
 
 # Sources
-file(GLOB SRCS_G "src/*.cpp")
+file(GLOB SRCS_G "src/*.c*")
 POCO_SOURCES_AUTO( SRCS ${SRCS_G})
 
 # Headers
